@@ -1,0 +1,151 @@
+<!-- Chưa có responsive -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>The Cafe</title>
+</head>
+<body>
+    <div class="website">
+        <!-- Header -->
+        <header class="header">
+            <a href = "#" class="header__item"> Home </a>
+            <a href = "#" class="header__item"> About </a>
+            <a href = "#" class="header__item"> Menu </a>
+            <a href = "#" class="header__item"> Where </a>
+        </header>
+
+        <!-- Content -->
+        <div class="container">
+            <!-- Cover image -->
+            <div class="cover">
+                <div class="cover__img">
+                    <span class="cover__img-title"> the </span> 
+                    <span class="cover__img-title"> Cafe </span>
+                </div>
+
+                <div class="cover__info">
+                    <span class="title min-size">
+                        Open from 6am to 5pm
+                    </span>
+                    <span class="cover__info-address"> 15 Adr street, 5015 </span>
+                </div>
+            </div>
+
+            <div class="content">
+                <!-- About -->
+                <div class="about">
+                    <div class="about__head-title">
+                        <span class="title"> about the cafe </span>
+                    </div>
+                    <div class="about__paragraph">
+                        <p class="about__paragraph-items">
+                            The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="about__paragraph-items">
+                            In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+                        </p>
+                    </div>
+                    <div class="about__panel">
+                        <span class="about__panel-quote">
+                            "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+                        </span>
+                        <span class="about__panel-cre">
+                            Chef, Coffeeist and Owner: Liam Brown
+                        </span>
+                    </div>
+                    <img src="./Assets/Img/coffeeshop.jpg" alt="" class="about__img">
+                    <div class="about__info">
+                        <span class="about__title"> Opening hours: </span>
+                        <span class="about__inform"> every day from 6am to 5pm. </span>
+                    </div>
+                    <div class="about__info">
+                        <span class="about__title"> Address: </span>
+                        <span class="about__inform"> 15 Adr street, 5015, NY. </span>
+                    </div>
+                    
+                </div>  
+
+                <!-- Menu -->
+                <div class="menu">
+                    <div class="menu__head-title">
+                        <span class="title"> the menu </span>
+                    </div>
+
+                    <div class="menu__menu">
+                        <header class="menu__header">
+                            <!-- Class: choosen - đang được chọn -->
+                            <span class="menu__header-item choosen"> Eat </span>
+                            <span class="menu__header-item"> Drink </span>
+                        </header>
+
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <span class="menu__item-title"> Bread Basket </span>
+                                <span class="menu__item-info"> Assortment of fresh baked fruit breads and muffins 5.50</span>
+                            </li>
+                            <li class="menu__item">
+                                <span class="menu__item-title"> Honey Almond Granola with Fruits </span>
+                                <span class="menu__item-info"> Natural cereal of honey toasted oats, raisins, almonds and dates 7.00 </span>
+                            </li>
+                            <li class="menu__item">
+                                <span class="menu__item-title"> Belgian Waffle </span>
+                                <span class="menu__item-info"> Vanilla flavored batter with malted flour 7.50 </span>
+                            </li>
+                            <li class="menu__item">
+                                <span class="menu__item-title"> Scrambled eggs </span>
+                                <span class="menu__item-info"> Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</span>
+                            </li>
+                            <li class="menu__item">
+                                <span class="menu__item-title"> Blueberry Pancakes </span>
+                                <span class="menu__item-info"> With syrup, butter and lots of berries 8.50 </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <img src="./Assets/Img/coffeehouse2.jpg" alt="" class="menu__img">
+                </div>
+
+                <!-- Where -->
+                <div class="where">
+                    <div class="where__head-title">
+                        <span class="title"> Where to find us </span>
+                    </div>
+
+                    <span class="find where__paragraph"> Find us at some address at some place</span>
+                    <img src="./Assets/Img/map.jpg" alt="" class="where__img">
+                    <div class="where__fyi">
+                        <span class="title medium-size">fyi!</span>
+                        <span class="first-space where__paragraph">   We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</span>
+                    </div>
+                    <div class="where__mes">
+                        <span class="where__paragraph">
+                            <span class="bold"> Reserve </span>
+                            a table, ask for today's special or just send us a message: 
+                        </span>
+                    </div>
+                    <div class="where__book">
+                        <input type="text" placeholder = "Name" class="book__input">
+                        <input type="text" placeholder = "How many people" class="book__input">
+                        <input type="text" placeholder = "5/7/2022 21:00" class="book__input">
+                        <input type="text" placeholder = "Message \ Special requirements" class="book__input">
+                    </div>
+
+                    <button class="btn-size title"> Send message </button>
+                </div>
+            </div>  
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <span class="footer__text">
+                Powered by <a href="#" class="footer__text-link"> w3.css </a>
+            </span>
+        </footer>
+    </div>
+</body>
+</html>
